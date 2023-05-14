@@ -29,31 +29,31 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `# ${data.title}
   ## Description
-  # ${data.description}
+   ${data.description}
 
   ## Table of Contents
-  # ${data.toc}
+   ${data.toc}
 
   ## Installation
-  # ${data.installation}
+   ${data.installation}
 
   ## Usage
-  # ${data.usage}
+   ${data.usage}
 
   ## Credit
-  # ${data.credit}
+   ${data.credit}
 
   ## License
-  # ${data.license}
+   ${data.license}
 
   ## Contributions
-  # ${data.contributing}
+   ${data.contributing}
 
   ## Tests
-  # ${data.tests}
+   ${data.tests}
 
   ## Questions
-  # ${data.questions}
+   ${data.questions}
 `;
 }
 
