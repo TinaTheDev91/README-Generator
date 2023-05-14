@@ -41,17 +41,32 @@ const questions = [
         type: 'input',
         message: 'What license are you using?',
         name: 'license'
+    },
+    {
+        type: 'input',
+        message: 'What are the contributions?',
+        name: 'contributing'
+    },
+    {
+        type: 'input',
+        message: 'Were there any tests involved?',
+        name: 'tests'
+    },
+    {
+        type: 'input',
+        message: 'How can people reach you with questions?',
+        name: 'questions'
     }
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {
-    return fs.writeFileSync(path.join(process.cwd(), fileName), data)
+function writeToFile(README, data) {
+    return fs.writeFileSync(path.join(README), data);
 }
 
 // TODO: Create a function to initialize app
 function init() {
-    inquirer.createPromptModule(questions).then((responses) => {
+    inquirer.prompt(questions).then((responses) => {
         writeToFile('./generated-readme/README.md', generateMarkdown({...responses}))
         console.log('Your README has been generated!')
     })
