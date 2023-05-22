@@ -24,4 +24,4 @@ https://drive.google.com/file/d/1TLwgCrikGOxNQNspBR62LUtrG04nN9_I/view
 
 ## Credits and Mentions
 
-Thank you to my instructor Suarav for teaching us OOP fundamentals.
+Thank you to my instructor Suarav for teaching us Node.JS.
