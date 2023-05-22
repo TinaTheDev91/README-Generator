@@ -3,19 +3,19 @@
    Test Description
 
   ## Table of Contents
-   Test ToC
+   Test TOC
 
   ## Installation
-   Test instructions
+   Test Install
 
   ## Usage
    Test Usage
 
   ## Credit
-   Test credit
+   Test Credit
 
   ## License
-   Test License
+   MIT
 
   ## Contributions
    Test Contributions
@@ -24,4 +24,4 @@
    Test Tests
 
   ## Questions
-   Test Contact
+   Test Email
